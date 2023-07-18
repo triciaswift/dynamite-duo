@@ -14,6 +14,7 @@ const theWholeEnchilada = `
     <h1>Villains</h1>
     ${villainListHTML}
 `;
-debugger;
 
 const theExistingMainElement = document.querySelector("#container");
+
+theExistingMainElement.innerHTML = theWholeEnchilada;

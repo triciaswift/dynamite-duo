@@ -9,7 +9,7 @@ export const HeroList = () => {
     heroHTML += `<li>${hero.name}</li>`;
   }
 
-  heroHTML += "</ul";
+  heroHTML += "</ul>";
 
   return heroHTML;
 };
